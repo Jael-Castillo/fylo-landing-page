@@ -55,12 +55,3 @@ header .header-nav .nav--left li a{
     text-decoration: none;
     color:  hsl(243, 87%, 12%);
 }
-
-
-
-/* @media screen and (max-width:375px){
-    header{
-        border: 1px solid red;
-        width: 365px;
-    }
-} */
