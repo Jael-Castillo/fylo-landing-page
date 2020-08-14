@@ -5,13 +5,17 @@ html{
     font-size: 62.5%;
 }
 
+/* *{
+    border: 1px solid red;
+} */
+
 body{
     font-size: 16px;
     margin: 0;
     padding: 0;
 }
 h1,h2{
-    font-size: 3rem;
+    font-size: 3.6rem;
     color:  hsl(243, 87%, 12%);
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -54,4 +58,71 @@ header .header-nav .nav--left li a{
     font-weight: 400;
     text-decoration: none;
     color:  hsl(243, 87%, 12%);
+}
+
+/* PRINCIPAL */
+main{
+    display: flex;
+    padding: 0 5rem;
+    justify-content: space-between;
+}
+
+main .main-wrapper--left{
+    margin-top: 8rem;
+    width: 60rem;
+    height: 25rem;
+    /* border: 1px solid red; */
+}
+
+main .main-title{
+    margin: 0;
+    /* border: 1px solid black; */
+}
+
+main .main-text{
+    width: 50rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    /* border: 1px solid blue; */
+}
+
+main .info-wrapper{
+    display: flex;
+    /* border: 1px solid purple; */
+}
+
+main .email-wrapper{
+    border: .1rem solid black;
+    border-radius: 2px;
+    width: 27rem;
+    height: 4rem;
+}
+
+main .email-wrapper input{
+    border:0;
+    padding: .2rem 1rem;
+    width: 24.5rem;
+    height: 3.5rem;
+}
+
+main .info-button{
+    margin-left: 1rem;
+    border-radius: 2px;
+    border:0;
+    border-color: transparent;
+    width: 18rem;
+    background-color: hsl(224, 93%, 58%);
+}
+
+main .info-button a{
+    text-decoration:none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+
+main .image-wrapper{
+    width: 60rem;
+    /* border: 1px solid turquoise; */
 }
